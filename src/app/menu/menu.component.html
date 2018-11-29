@@ -1,0 +1,46 @@
+<div class="container-fluid">
+<div class="cont-content">
+    <h4 class="text-center">Menu</h4>
+    <h3 class="Menutype">Starters</h3>
+    <ul class="menublock">
+        <!-- class="blog" -->
+        <li *ngFor="let posts of posts | starterfilter: 'type:starter' ">
+            <!--      <div *ngFor="let hero of (heroes | flyingHeroes)"> Example-->
+            <!-- class="blogposts" -->
+            <br />
+            <!--  <p> Menu Type...{{posts.type}}</p> -->
+            <h5 class="Menutitle">{{posts.title}} <span class="price">{{posts.price | currency:'EUR':true }}</span></h5>
+            <p class="Menudesc"> {{posts.description}}</p>
+        </li>
+    </ul>
+
+    <br />
+
+    <h3 class="Menutype">Main Courses</h3>
+    <ul class="menublock">
+        <!-- class="blog" -->
+        <li *ngFor="let posts of posts | mainfilter: 'type:main' ">
+            <!-- class="blogposts" -->
+            <br />
+            <!--  <p> Menu Type...{{posts.type}}</p>-->
+            <h5 class="Menutitle">{{posts.title}} <span class="price">{{posts.price | currency:'EUR':true }}</span></h5>
+            <p class="Menudesc">{{posts.description}}</p>
+        </li>
+    </ul>
+
+    <br />
+
+    <h3 class="Menutype">Desserts</h3>
+    <ul class="menublock">
+        <!-- class="blog" -->
+        <li *ngFor="let posts of posts | dessertfilter: 'type:dessert' ">
+            <!-- class="blogposts" -->
+            <br />
+            <!--  <p> Menu Type...{{posts.type}}</p>-->
+            <h5 class="Menutitle">{{posts.title}} <span class="price">{{posts.price | currency:'EUR': true }}</span></h5>
+            <p class="Menudesc">{{posts.description}}</p>
+        </li>
+    </ul>
+</div>
+<!-- End cont-content-->
+</div> <!-- End .container -->

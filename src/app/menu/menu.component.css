@@ -1,0 +1,84 @@
+.cont-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+/*    background-color: rgba(0, 0, 0, 0.7);*/
+}
+
+.cont-content h4.text-center {
+    font-family: 'Alex Brush', cursive;
+    font-size: 3em;
+    color: #fff;
+}
+
+.Menutype {
+    /*  font-family: 'Alex Brush', cursive;*/
+/*    font-family: 'Cardo', serif;*/
+/* font-family: 'Dancing Script', cursive; */
+/*    font-family: "Damion", sans-serif;*/
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #321602;
+    margin-top: 25px;
+    border-bottom: 1px dotted #ccc;
+}
+
+h3.Menutype {
+/*    font-family: "Damion", sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+    /*color: #d12; */
+/*  -webkit-mask-image: -webkit-gradient(linear, left top, »
+    left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+    background: linear-gradient(45deg, darkgreen, green, white, red, darkred);
+  mix-blend-mode: screen;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size: 3em;
+}
+
+.Menutitle {
+    /*  font-family: 'Cardo', serif; */
+      font-family: "Damion", sans-serif;
+/*    font-family: 'Roboto', Helvetica, Arial, sans-serif;*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted #555;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+.Menutitle h5{color:#000}
+.Menudesc {
+    /*  font-family: 'Cardo', serif; */
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    /*  border-bottom: 1px dotted #ddd; */
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    color: #333;
+/*    color: #b95d4e;*/
+}
+
+ul.menublock {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+
+/* .price { */
+
+
+/*display: inline-block;
+  align-items: flex-end;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;*/
+
+
+/*} */

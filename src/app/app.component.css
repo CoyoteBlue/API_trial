@@ -1,0 +1,100 @@
+/*html {
+  margin:0;
+}
+body {
+  background-color: #EFEFEF;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+} */
+header {
+background-image: url(../assets/images/bg_head.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+/*height: 135px;*/
+/*  background: linear-gradient(90deg, black, darkgreen, green,#ccc, #ddd, #ccc, darkred, darkred, black);
+  mix-blend-mode: screen; */
+/*  background-color: #303030;*/
+  width: 100%;
+}
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 2.5em;
+  color: white;
+  margin: 0;
+  padding: 0.75em;
+  text-align: center;
+/*  text-shadow:
+  0 1px #808d93,
+  -1px 0 #cdd2d5,
+  -1px 2px #808d93,
+  -2px 1px #cdd2d5,
+  -2px 3px #808d93,
+  -3px 2px #cdd2d5,
+  -3px 4px #808d93,
+  -4px 3px #cdd2d5,
+  -4px 5px #808d93,
+  -5px 4px #cdd2d5,
+  -5px 6px #808d93,
+  -6px 5px #cdd2d5,
+  -6px 7px #808d93,
+  -7px 6px #cdd2d5,
+  -7px 8px #808d93,
+  -8px 7px #cdd2d5; */
+}
+span.jk-yellow {
+    font-size: 16px;
+    margin-top: -20px;
+  }
+.material-icons {
+  transition: 0.4s;
+}
+.material-icons.md-18 {
+  font-size: 0.8em;
+  color: #FFD900;
+}
+.jk-yellow {
+  color: #FFD900;
+}
+nav{
+  width: 100%;
+  background-color: #424242;
+}
+nav .material-icons {
+  vertical-align: bottom;
+}
+nav ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav li {
+  list-style: none;
+  padding: 0.5em 1em;
+  transition: 0.4s;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #EFEFEF;
+  transition: 0.4s;
+}
+nav ul li:hover{
+  background-color: #FFD900;
+}
+nav ul li:hover a {
+  color: #333333;
+}
+nav ul li:hover .material-icons {
+  color: #333333;
+}
